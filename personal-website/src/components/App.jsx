@@ -1,11 +1,13 @@
 import '../styles/App.css';
+import Navbar from './Navbar';
+import Main from './Main';
 
 function App() {
-
   return (
-    <div className="App">
-      <h1>hell world</h1>
-   </div>
+    <div>
+      <Navbar />
+      <Main />
+    </div>
   )
 }
 
