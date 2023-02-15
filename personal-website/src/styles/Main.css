@@ -1,0 +1,34 @@
+.main{
+    height: 100vh;
+    background-image: linear-gradient(to right, #de0631, #9c0321);
+    font-family: 'Poppins', sans-serif;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+.main-titles{
+    margin-top: 150px;
+}
+
+#main-but{
+    width: 200px;
+    height: 40px;
+}
+
+.socials{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}

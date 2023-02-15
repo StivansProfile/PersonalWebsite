@@ -9,7 +9,7 @@
     align-items: center;
     justify-content: space-between;
 
-    background-image: linear-gradient(to right, #de0631, #ad0325);
+    background-image: linear-gradient(to right, #de0631, #9c0321);
     font-family: 'Poppins', sans-serif;
     color: white;
 
@@ -22,13 +22,13 @@
 }
 
 #navbar-logo{
-    margin-left: 10px;
+    margin-left: 20px;
     font-size: 20px;
 }
 
 #navbar-contact-but{
-    margin-right: 10px;
-    width: 110px;
+    margin-right: 20px;
+    width: 130px;
     height: 30px;
 }
 
