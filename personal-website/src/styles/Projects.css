@@ -1,0 +1,44 @@
+.projects{
+    height: 200vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.projects-title{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#projects-h1{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+#projects-hr{
+    width: 60%;
+    border: 1px black solid;
+}
+
+#projects-p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    text-align: center;
+}
+
+.projects-wrap{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.c-sharp-project{
+    width: 550px;
+    height: 300px;
+    background-image: linear-gradient(to right, #de0631, #9c0321);
+}
