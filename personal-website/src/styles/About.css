@@ -1,0 +1,57 @@
+.about{
+    height: 100vh;
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+}
+
+#aboutMe-h1{
+    text-align: center;
+    color: black;
+}
+
+#aboutMe-hr{
+    width: 60%;
+    border: 1px black solid;
+}
+
+.aboutMeP{
+    font-size: 18px;
+    text-align: left;
+}
+
+.aboutMe-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#codingImg{
+    width: 300px;
+}
+
+.aboutMePDiv{
+    width: 50%;
+}
+
+@media screen and (max-width: 600px) {
+    .about{
+        gap: 0px;
+    }
+    .aboutMePDiv{
+        width: 100%;
+    }
+    .aboutMeP{
+        margin-left: 10px;
+    }
+    .aboutMe-content{
+        align-items: center;
+    }
+    #codingImg{
+        width: 200px;
+    }
+    
+}

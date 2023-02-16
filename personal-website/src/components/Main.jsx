@@ -8,8 +8,8 @@ export default function Main(){
     return(
         <div className="main">
             <div className="main-titles">
-                <h1>Hello there my name is Stivan</h1>
-                <h2>I am an aspiring software developer</h2>
+                <h1 id="main-h1">Hello there my name is Stivan</h1>
+                <h2 id="main-h2">I am an aspiring software developer</h2>
             </div>
             <div className="socials">
                 <img src={githubImg}></img>
